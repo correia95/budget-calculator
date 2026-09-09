@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#059669" />
+
+    <title>Budget Calculator — the 50/30/20 rule with your real expenses</title>
+    <meta
+      name="description"
+      content="Split your monthly take-home pay into needs, wants and savings with the 50/30/20 rule, then check your actual expenses against each target. Adjustable split, running total, savings rate, any currency. Free, nothing uploaded."
+    />
+    <link rel="canonical" href="https://budget-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Budget Calculator" />
+    <meta property="og:description" content="The 50/30/20 budget with your real expenses — needs vs wants vs savings, target vs actual, savings rate. Any currency." />
+    <meta property="og:url" content="https://budget-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://budget-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Budget Calculator" />
+    <meta name="twitter:description" content="50/30/20 budget with your real expenses — target vs actual for needs, wants and savings. Free, works offline." />
+    <meta name="twitter:image" content="https://budget-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Budget Calculator",
+        "url": "https://budget-calculator.correia95.workers.dev/",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Applies the 50/30/20 budgeting rule to a monthly take-home income, splitting it into needs, wants and savings targets, and compares a list of the user's actual expenses against each target with a running total and savings rate, in any of ten currencies. The split is adjustable."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the 50/30/20 budget rule?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Spend 50% of your after-tax income on needs, 30% on wants, and put 20% toward savings and extra debt repayment. It is a simple framework for keeping essential spending in check while still saving."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What counts as a need versus a want?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A need is something you can't reasonably live or work without, in its basic form: housing, food, utilities, transport, insurance and minimum debt payments. A want is everything else, including the extra cost of a premium version of a need."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I change the 50/30/20 percentages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The rule is a starting point. In an expensive area needs may take 55 to 60%; if you have a savings goal, push savings above 20%. Edit the target percentages and everything recalculates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a good savings rate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 50/30/20 target is 20%, including extra debt repayment. Many personal-finance writers suggest aiming higher, 25 to 30% or more, if you can, especially early in your career or when working toward financial independence."
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      .tt-nav { box-sizing: border-box; width: 100%; margin: 0; background: #f1f1f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+      .tt-nav a { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; text-decoration: none; color: #3730a3; font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .tt-nav a:hover { color: #1e1b4b; text-decoration: underline; }
+      .tt-nav svg { width: 14px; height: 14px; flex: none; }
+      @media (prefers-color-scheme: dark) {
+        .tt-nav { background: #15151b; border-bottom-color: rgba(255, 255, 255, 0.12); }
+        .tt-nav a { color: #c7d2fe; }
+        .tt-nav a:hover { color: #e0e7ff; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="tt-nav"><a href="https://tinytools.correia95.workers.dev/" aria-label="TinyTools home — all tools and games"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 2 11h3v9h5v-6h4v6h5v-9h3z"/></svg><span>TinyTools</span></a></nav>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">The Budget Calculator needs JavaScript. It applies the 50/30/20 rule to your income and expenses.</p>
+    </noscript>
+  </body>
+</html>

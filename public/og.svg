@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#07100d"/>
+  <g transform="translate(960 315)">
+    <path d="M0 0 L0 -150 A150 150 0 0 1 130 75 Z" fill="#34d399"/>
+    <path d="M0 0 L130 75 A150 150 0 0 1 -130 75 Z" fill="#10b981"/>
+    <path d="M0 0 L-130 75 A150 150 0 0 1 0 -150 Z" fill="#a7f3d0"/>
+  </g>
+  <text x="80" y="215" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="98" font-weight="800" fill="#e7edf0" letter-spacing="-3">Budget</text>
+  <text x="80" y="315" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="98" font-weight="800" fill="#e7edf0" letter-spacing="-3">Calculator</text>
+  <text x="82" y="378" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" fill="#34d399">50 / 30 / 20  ·  needs · wants · savings</text>
+  <text x="80" y="432" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#94a3a8">your real expenses vs each target · savings rate · any currency</text>
+  <text x="80" y="474" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="20" fill="#34d399">free · works offline · nothing uploaded</text>
+</svg>
