@@ -6,7 +6,9 @@
   --ink: #17202a;
   --ink-soft: #58616e;
   --line: #dfe3e9;
-  --accent: #059669;
+  /* Darkened from #059669 — the lighter shade only reached 3.77:1 as the
+     "+ Add expense" button's text color, short of WCAG AA's 4.5:1. */
+  --accent: #048059;
   --accent-ink: #ffffff;
   --ok: #059669;
   --over: #dc2626;
@@ -233,4 +235,9 @@ input, select {
   .buckets { grid-template-columns: 1fr; }
   .summary { grid-template-columns: 1fr; }
   .exp-row { grid-template-columns: 1.4fr 0.9fr 1fr 26px; }
+}
+
+/* a11y-contrast-fixes (auto, WCAG AA 4.5:1) */
+@media (prefers-color-scheme: light) {
+  .del:hover { color: #ca2323; }
 }
